@@ -1,0 +1,19 @@
+# This file represents the base specification of your challenge. It is used by
+# other tools to install and deploy your challenge.
+
+# Required sections
+name: "Welcome to UIUCTF'21"
+author: ""
+category: meta
+tags:
+  - beginner
+description: |-
+  Welcome to UIUCTF'21! Your flag can be found on this very page.
+value: 1
+type: standard
+hints:
+  - take a closer look at the wonderful background art :)
+flags:
+  - uiuctf{secret_pictures}
+state: visible
+version: "0.1"

@@ -1,0 +1,14 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  name: vaudeville
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+  healthcheck:
+    # TIP: disable the healthcheck during development
+    enabled: true
+    image: us.gcr.io/dotted-forest-314903/vaudeville-healthcheck:4a8e09b61de39bfad78a6a789abe86bdcef7a5f709c89b26665e9b0ccdfa1cdc
+  image: us.gcr.io/dotted-forest-314903/vaudeville-challenge:e9375700d08efc5a5bd9e0a67de783d145829a125934bf37a8fb85bfedc6e638

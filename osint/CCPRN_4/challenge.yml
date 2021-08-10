@@ -1,0 +1,22 @@
+name: "Chaplin's PR Nightmare - 4"
+author: "[Thomas](https://twitter.com/0xQuig)"
+category: osint
+description: |-
+  Charlie left another flag on his company's website. Maybe you have to reach out to him???
+
+  The inner content of this flag begins with **"w3"**
+
+
+  **author**: [Thomas](https://twitter.com/0xQuig)
+value: 500
+type: dynamic
+tags:
+  - osint
+extra:
+  initial: 500
+  decay: 75
+  minimum: 50
+flags:
+  - uiuctf{w3_d0_nOt_v@lu3_yoUR_1nPuT}
+state: visible
+version: "0.1"

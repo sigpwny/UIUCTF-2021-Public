@@ -1,0 +1,22 @@
+version: "0.1"
+name: gatekeeping
+author: Vanilla
+category: misc
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 75
+  minimum: 50
+description: |-
+  ᴬᴺᴰ oh frick ˣᴼᴿ ᴺᴼᵀ ᴼᴿ ᴬᴺᴰ ᴬᴺᴰ ᴼᴿ ᴺᴬᴺᴰ ᴺᴼᴿ frick sorry guys ˣᴺᴼᴿ ˣᴺᴼᴿ ᴺᴼᴿ ᴬᴺᴰ ᴬᴺᴰ ᴺᴼᴿ sorry im dropping ˣᴼᴿ my gates all over the ᴼᴿ place ᴺᴼᵀ ᴼᴿ ᴺᴼᵀ sorry
+
+
+  **author**: Vanilla
+tags:
+  - misc
+  - hardware
+files:
+  - synth.v
+flags:
+  - "uiuctf{1ts_pUr3ly_l0gIcal}"

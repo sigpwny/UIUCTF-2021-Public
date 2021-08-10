@@ -1,0 +1,26 @@
+name: "beyond_root"
+author: "YiFei Zhu"
+category: kernel
+description: |-
+  The flag is hidden away in initrd, but you are in a mounted hard drive.
+  There's another busybox in initrd in case you need it.
+
+  `$ stty raw -echo; nc beyond-root.chal.uiuc.tf 1337; stty -raw echo`
+
+
+  **author**: YiFei Zhu
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 75
+  minimum: 50
+flags:
+  - uiuctf{oh_I_have_root_oh_wait_its_outside_root_6da726b5}
+tags:
+  - kernel
+  - initrd
+files:
+  - handout.tar.gz
+state: visible
+version: "0.1"

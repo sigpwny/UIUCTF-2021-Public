@@ -1,0 +1,33 @@
+# This file represents the base specification of your challenge. It is used by
+# other tools to install and deploy your challenge.
+
+# Required sections
+name: "pawnfish"
+author: "icypete, heasummn"
+category: reverse
+description: |-
+  Fishes are pretty good at chess.
+
+  `nc pawnfish.chal.uiuc.tf 1337`
+
+  Author's note: our version of stockfish is a neural net. The `stockfish` binary and `nn.nnue` files must be present in the same directory as the `chal` binary for the script to run locally.
+
+
+  **author**: icypete, heasummn
+value: 500
+type: dynamic
+tags:
+  - reverse
+  - chess
+extra:
+  initial: 500
+  decay: 75
+  minimum: 50
+flags:
+  - uiuctf{strange_the_only_winning_move_is_to_lose}
+files:
+  - handout.tar.gz
+# This is visible by default. It takes two values: hidden, visible.
+state: visible
+# leave this 0.1, screw the rules
+version: "0.1"

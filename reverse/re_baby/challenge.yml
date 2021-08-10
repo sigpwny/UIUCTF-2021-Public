@@ -1,0 +1,19 @@
+name: "hvhpgs{synt}"
+author: spamakin
+category: reverse
+description: "CS1 ciphers go brrrrr\n\n**author**: spamakin"
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 75
+  minimum: 50
+flags:
+  - uiuctf{i_propose_to_consider_the_question_can_machines_think}
+tags:
+  - reverse
+  - beginner
+files:
+  - chal
+state: visible
+version: "0.1"

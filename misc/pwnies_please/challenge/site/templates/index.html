@@ -1,0 +1,38 @@
+<!doctype html>
+
+<!-- neigh! -->
+
+<html>
+	<title>pwnies_please</title>
+	<link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+	
+	<body>
+		<div class="bg"/>
+		
+		<div class=overlay>
+			<div>
+				welcome to the pwny club! here's a pwny. <br>
+				you need to sneak them past the bouncer. <br>
+				can you give them a costume to wear? <br>
+				don't overdo it, or the bouncer will see right through it! <br><br>
+			</div>
+			<div class="container">
+				<img class="show" src="data:image/png;base64,{{b64png}}"/>
+			</div>
+
+			<form action = "?" method = "POST" 
+				enctype = "multipart/form-data">
+				<input type = "file" name = "file" />
+				<input type = "submit"/>
+			</form>
+
+			<div id="response">{{response}}</div>
+
+			<div>
+				<a href="static/pwny_cifar_eps_0.pth">model</a><br>
+				<a href="static/web.py">site source code</a>
+			</div>
+		
+		</div>
+	</body>
+</html>

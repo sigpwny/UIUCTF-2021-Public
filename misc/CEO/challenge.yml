@@ -1,0 +1,23 @@
+# This file represents the base specification of your challenge. It is used by
+# other tools to install and deploy your challenge.
+# Required sections
+name: CEO
+author: Rohans885
+category: misc
+description: "You just wirelessly captured the handshake of the CEO of a multi-million dollar company!  \nUse your password cracking skills to get the password!\n\n\n**author**: Rohans885"
+value: 500
+type: dynamic
+tags:
+  - misc
+  - cracking
+  - beginner
+extra:
+  initial: 500
+  decay: 75
+  minimum: 50
+flags:
+  - uiuctf{nanotechnology}
+files:
+  - megacorp-01.cap
+state: visible
+version: "0.1"

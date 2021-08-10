@@ -1,0 +1,17 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  name: insecure-seccomp
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+    ports:
+      - protocol: "TCP"
+        port: 1337
+        targetPort: 1337
+  healthcheck:
+    enabled: true
+    image: us.gcr.io/dotted-forest-314903/insecure-seccomp-healthcheck:7cd2e30386ab7d15b6d3caf29d9fc3536eff87303d209280f8d607fd335d49b3
+  image: us.gcr.io/dotted-forest-314903/insecure-seccomp-challenge:76df897a33876eddaad4803e4cfe26cc46d647e11f9357d973bd8d7b7bf7fb87

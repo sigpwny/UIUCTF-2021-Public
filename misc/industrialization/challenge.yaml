@@ -1,0 +1,13 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  name: industrialization
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+  healthcheck:
+    # TIP: disable the healthcheck during development
+    enabled: false
+  image: us.gcr.io/dotted-forest-314903/industrialization-challenge:1f674087cde7cc7dc6abe0c9b5a2c7b8e71205310f16a172cddf165c66c1d854

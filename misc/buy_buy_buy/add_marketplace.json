@@ -1,0 +1,15 @@
+{
+    "_id": { "item": "Staff of Ra", "type": "set", "price": 200000, "parts": [{ "staff": 10000 }, { "head piece": 100000 }] },
+    "_id": { "item": "Hacker Mask", "type": "collectable", "price": 10000, "multiplier": 1.2 },
+    "_id": { "item": "Once Upon a Time in Shaolin", "type": "single", "price": 2000000 },
+    "_id": { "item": "Really Cool Arrow", "type": "collectable", "price": 11000, "multiplier": 1.5 },
+    "_id": { "item": "Rare Comic Book", "type": "collectable", "price": 30000, "multiplier": 1.3 },
+    "_id": { "item": "Clout", "type": "collectable", "price": 40000, "multiplier": 1.5 },
+    "_id": { "item": "Poseidon's Trident", "type": "single", "price": 100000 },
+    "_id": { "item": "Zeus's Thunderbolt", "type": "single", "price": 100000 },
+    "_id": { "item": "Golden Fleece", "type": "single", "price": 300000 },
+    "_id": { "item": "Mothballs", "type": "single", "price": 300 },
+    "_id": { "item": "Martin D-28 Vintage Guitar", "type": "single", "price": 7000 },
+    "_id": { "item": "Grand Piano", "type": "single", "price": 200000 },
+    "_id": { "item": "Megazord", "type": "set", "price": 1000000, "parts": [{ "Tyrannosaurus": 50000 }, { "Mastodon": 50000 }, { "Triceratops": 50000 }, { "Sabertooth": 50000 }, { "Tiger": 50000 }, { "Pterodactyl": 50000 }] }
+}

@@ -1,0 +1,20 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  name: bpf-badjmp
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+    ports:
+      - protocol: "TCP"
+        port: 1337
+        targetPort: 1337
+      - protocol: "TCP"
+        port: 1338
+        targetPort: 1338
+  healthcheck:
+    enabled: true
+    image: us.gcr.io/dotted-forest-314903/bpf-badjmp-healthcheck:d34c10548a15098bce93f13ee248cae4cd530fccd528a8f3b72cb05582b5c743
+  image: us.gcr.io/dotted-forest-314903/bpf-badjmp-challenge:226259c8c456382b036bf6eb302b07be385cd812d5f5ee4d7c6627cb25fd48ee

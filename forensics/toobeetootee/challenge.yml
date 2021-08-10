@@ -1,0 +1,21 @@
+name: "toobeetootee"
+author: "WhiteHoodHacker"
+category: forensics
+description: "Oh no! the infamous popbob hacked into my Minetest server, griefed my house, and tampered with the flag! Luckily, I was running a network capture at the time. Can you help me rollback the damage?\n\n**author**: WhiteHoodHacker"
+value: 500
+type: dynamic
+tags:
+  - forensics
+  - pcap
+  - Minetest
+extra:
+  initial: 500
+  decay: 75
+  minimum: 50
+flags:
+  - uiuctf{BudG3t_c4ves_N_cl1fFs}
+files:
+  - toobeetootee.pcap
+  - world.zip
+state: visible
+version: "0.1"

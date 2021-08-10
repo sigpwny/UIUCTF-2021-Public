@@ -1,0 +1,24 @@
+name: "Chaplin's PR Nightmare - 5"
+author: "[Thomas](https://twitter.com/0xQuig)"
+category: osint
+description: |-
+  Charlie also has an imgur account that may hold the secret to his PR nightmare... Can you find it?
+
+  The inner content of this flag begins with **"tH"**
+
+
+  **author**: [Thomas](https://twitter.com/0xQuig)
+value: 500
+type: dynamic
+tags:
+  - osint
+extra:
+  initial: 500
+  decay: 75
+  minimum: 50
+flags:
+  - uiuctf{tH3_pR_p0Lic3_h@vE_cAugHt_Up?!}
+hints:
+  - Do images grow on trees?
+state: visible
+version: "0.1"

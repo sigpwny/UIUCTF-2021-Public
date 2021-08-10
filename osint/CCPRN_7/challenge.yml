@@ -1,0 +1,24 @@
+name: "Chaplin's PR Nightmare - 7"
+author: "[Thomas](https://twitter.com/0xQuig)"
+category: osint
+description: |-
+  Chaplin left some code up on GitHub which may be the actual PR nightmare I hope not though... Leaked code is bad. Find it!!!
+
+  The inner content of this flag begins with **"th"**
+
+
+  **author**: [Thomas](https://twitter.com/0xQuig)
+value: 500
+type: dynamic
+tags:
+  - osint
+extra:
+  initial: 500
+  decay: 75
+  minimum: 50
+flags:
+  - uiuctf{th3_TrUe_pR_N1gHtm@r3}
+hints:
+  - OUtlNDQ4ME1pY1U=
+state: visible
+version: "0.1"

@@ -1,0 +1,17 @@
+name: "Tablet 2"
+author: "WhiteHoodHacker"
+category: forensics
+description: "Wait... there are TWO impostors?! Red must have been in contact with the other impostor. See if you can find out what they are plotting.\n\nNOTE: Both Tablet challenges use the same file, which can be downloaded from `Tablet 1`.\n\n**author**: WhiteHoodHacker"
+value: 500
+type: dynamic
+tags:
+  - forensics
+  - iPadOS
+extra:
+  initial: 500
+  decay: 75
+  minimum: 50
+flags:
+  - uiuctf{wh3n_the_imp0stors_4re_su5_305da9}
+state: visible
+version: "0.1"

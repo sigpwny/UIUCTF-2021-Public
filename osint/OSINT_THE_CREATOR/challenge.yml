@@ -1,0 +1,22 @@
+name: "OSINT The Creator"
+author: "[Thomas](https://twitter.com/0xQuig)"
+category: osint
+description: |-
+  There is a flag on a few of the organizer's profiles. Find it!
+
+  **author**: [Thomas](https://twitter.com/0xQuig)
+value: 500
+type: dynamic
+tags:
+  - osint
+extra:
+  initial: 500
+  decay: 75
+  minimum: 50
+flags:
+  - uiuctf{@b0uT_m3_suppOrT5_maRkD0wN}
+hints:
+  - It's on Discord :)
+state: visible
+version: "0.1"
+

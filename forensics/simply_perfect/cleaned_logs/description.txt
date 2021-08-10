@@ -1,0 +1,10 @@
+pacct-original is the original log file that has not been cleaned at all
+pacct-first-cleaned has the original log file with the first interaction processes cleaned 
+pacct-second-cleaned has the original log file with the first and second interaction processes cleaned
+second_entries are the bytes of the second interaction entries that have been removed
+pacct-third cleaned has the original log file with the first and second interaction processes cleaned along with all collection script processes cleaned 
+third_entries are the bytes of the collection script entries that have been removed 
+pacct-fourth-cleaned has the original log file with everything cleaned, it is the ideal file that is hashed to obtain the flag 
+fourth_entries are the bytes of the third interaction entries that have been removed 
+
+The bytes of the first interaction entries (first_entries) is missing

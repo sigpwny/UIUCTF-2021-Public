@@ -1,0 +1,22 @@
+{
+    "_id": { "item": "Samurai Set", "type": "set", "price": 130000, "parts": [{ "helmet": 10000 }, { "body armor": 30000 }, { "boots": 5000 }, { "katana": 40000 }] },
+    "_id": { "item": "Old Grandfather Clock", "type": "set", "price": 40000, "parts": [{ "gears": 2000 }, { "body": 15000 }] },
+    "_id": { "item": "Terracotta Warrior", "type": "collectable", "price": 10000, "multiplier": 1.5 },
+    "_id": { "item": "Ancient Gold Medallion", "type": "single", "price": 20000 },
+    "_id": { "item": "Ancient Silver Medallion", "type": "single", "price": 10000 },
+    "_id": { "item": "Ancient Bronze Medallion", "type": "single", "price": 20000 },
+    "_id": { "item": "Silver Cistern", "type": "single", "price": 3800000 },
+    "_id": { "item": "The Giuseppe Violin", "type": "single", "price": 3900000 },
+    "_id": { "item": "Der Blaue Wittelsbacher", "type": "single", "price": 23400000 },
+    "_id": { "item": "Totally Normal Knife", "type": "single", "price": 1000000 },
+    "_id": { "item": "1964 Ferrari 250 LM", "type": "single", "price": 19000000 },
+    "_id": { "item": "1939 Alfa Romeo 8C 2900B Lungo Spider", "type": "single", "price": 19800000 },
+    "_id": { "item": "1955 Jaguar D-Type", "type": "single", "price": 21780000 },
+    "_id": { "item": "Rare Yugioh Card", "type": "collectable", "price": 200, "multiplier": 1.2 },
+    "_id": { "item": "Venus of Willendorf", "type": "collectable", "price": 30000, "multiplier": 1.3 },
+    "_id": { "item": "Shiny Pokemon Card", "type": "collectable", "price": 500, "multiplier": 1.5 },
+    "_id": { "item": "Knight Set", "type": "set", "price": 90000, "parts": [{ "helmet": 5000 }, { "body armor": 15000 }, { "boots": 5000 }, { "broadsword": 20000 }] },
+    "_id": { "item": "Flag Common", "type": "single", "price": 10000 },
+    "_id": { "item": "Flag Rare", "type": "single", "price": 1000000 },
+    "_id": { "item": "Flag Ultra Rare", "type": "single", "price": 10000000 }
+}

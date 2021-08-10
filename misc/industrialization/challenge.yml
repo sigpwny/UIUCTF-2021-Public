@@ -1,0 +1,24 @@
+name: "Industrial Pwnvolution"
+author: "[Thomas](https://twitter.com/0xQuig)"
+category: misc
+description: |-
+  We've got this brand new buffer factory pumping data out... We aren't sure what the data is but we do have tests for it...
+  Can you figure out what is going on and fix our new industrialized data. I'd say around 100000 fixed buffers is good.
+
+  `nc pwnvolution.chal.uiuc.tf 1337`
+  **author**: [Thomas](https://twitter.com/0xQuig)
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 75
+  minimum: 50
+flags:
+  - uiuctf{ill_have_you_know_this_challenge_was_unneccesarily_difficult_to_get_working}
+tags:
+    - misc
+    - scripting
+hints:
+    - This isn't neccesarily a hint for this challenge, but hold on to this code for future UIUCTF's ;)
+state: hidden
+version: "0.1"

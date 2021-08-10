@@ -1,0 +1,13 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  name: alcapwn
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+  healthcheck:
+    # TIP: disable the healthcheck during development
+    enabled: false
+  image: us.gcr.io/dotted-forest-314903/alcapwn-challenge:25b430350ceb648b11e5d4031b76f2a1cdd5d6904002ae969b2050607999a4b9

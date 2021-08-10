@@ -1,0 +1,237 @@
+First interaction entries:
+60328  unix_chkpwd      S     root     __         0.01 secs Thu Jul 29 03:28 29326 17839
+60329  unix_chkpwd      S     root     __         0.02 secs Thu Jul 29 03:28 29327 17839
+60330  unix_chkpwd      S     root     __         0.00 secs Thu Jul 29 03:28 29328 17839
+60331  systemd-cgroups  S     root     __         0.00 secs Thu Jul 29 03:28 29329 804
+60332  id                     root     tty1       0.00 secs Thu Jul 29 03:28 29332 29331
+60333  bash              F    root     tty1       0.00 secs Thu Jul 29 03:28 29331 29330
+60334  hostname               root     tty1       0.00 secs Thu Jul 29 03:28 29334 29333
+60335  bash              F    root     tty1       0.00 secs Thu Jul 29 03:28 29333 29330
+60336  grep                   root     tty1       0.00 secs Thu Jul 29 03:28 29336 29335
+60337  grepconf.sh            root     tty1       0.00 secs Thu Jul 29 03:28 29335 29330
+60338  tty                    root     tty1       0.00 secs Thu Jul 29 03:28 29338 29337
+60339  tput                   root     tty1       0.00 secs Thu Jul 29 03:28 29339 29337
+60340  bash              F    root     tty1       0.00 secs Thu Jul 29 03:28 29337 29330
+60341  dircolors              root     tty1       0.00 secs Thu Jul 29 03:28 29341 29340
+60342  bash              F    root     tty1       0.00 secs Thu Jul 29 03:28 29340 29330
+60343  grep                   root     tty1       0.00 secs Thu Jul 29 03:28 29342 29330
+60344  consoletype            root     tty1       0.00 secs Thu Jul 29 03:28 29344 29343
+60345  bash              F    root     tty1       0.00 secs Thu Jul 29 03:28 29343 29330
+60395  ps                     root     tty1       0.03 secs Thu Jul 29 03:29 29395 29330
+60426  tr                     root     tty1       0.00 secs Thu Jul 29 03:29 29427 29426
+60427  bash              F    root     tty1       0.00 secs Thu Jul 29 03:29 29426 29330
+60428  tr                     root     tty1       0.00 secs Thu Jul 29 03:29 29429 29428
+60429  bash              F    root     tty1       0.00 secs Thu Jul 29 03:29 29428 29330
+60430  tr                     root     tty1       0.00 secs Thu Jul 29 03:29 29431 29430
+60431  bash              F    root     tty1       0.00 secs Thu Jul 29 03:29 29430 29330
+60432  tr                     root     tty1       0.00 secs Thu Jul 29 03:29 29433 29432
+60433  bash              F    root     tty1       0.00 secs Thu Jul 29 03:29 29432 29330
+60434  tr                     root     tty1       0.00 secs Thu Jul 29 03:29 29435 29434
+60435  bash              F    root     tty1       0.00 secs Thu Jul 29 03:29 29434 29330
+60436  tr                     root     tty1       0.00 secs Thu Jul 29 03:29 29437 29436
+60437  bash              F    root     tty1       0.00 secs Thu Jul 29 03:29 29436 29330
+60438  tr                     root     tty1       0.00 secs Thu Jul 29 03:29 29439 29438
+60439  bash              F    root     tty1       0.00 secs Thu Jul 29 03:29 29438 29330
+60440  tr                     root     tty1       0.00 secs Thu Jul 29 03:29 29441 29440
+60441  bash              F    root     tty1       0.00 secs Thu Jul 29 03:29 29440 29330
+60442  tr                     root     tty1       0.00 secs Thu Jul 29 03:29 29443 29442
+60443  bash              F    root     tty1       0.00 secs Thu Jul 29 03:29 29442 29330
+60444  tr                     root     tty1       0.00 secs Thu Jul 29 03:29 29445 29444
+60445  bash              F    root     tty1       0.00 secs Thu Jul 29 03:29 29444 29330
+60446  tr                     root     tty1       0.00 secs Thu Jul 29 03:29 29447 29446
+60447  bash              F    root     tty1       0.00 secs Thu Jul 29 03:29 29446 29330
+60448  tr                     root     tty1       0.00 secs Thu Jul 29 03:29 29449 29448
+60449  bash              F    root     tty1       0.00 secs Thu Jul 29 03:29 29448 29330
+60450  tr                     root     tty1       0.00 secs Thu Jul 29 03:29 29451 29450
+60451  bash              F    root     tty1       0.00 secs Thu Jul 29 03:29 29450 29330
+60452  tr                     root     tty1       0.00 secs Thu Jul 29 03:29 29453 29452
+60453  bash              F    root     tty1       0.00 secs Thu Jul 29 03:29 29452 29330
+60454  tr                     root     tty1       0.00 secs Thu Jul 29 03:29 29455 29454
+60455  bash              F    root     tty1       0.00 secs Thu Jul 29 03:29 29454 29330
+60456  tr                     root     tty1       0.00 secs Thu Jul 29 03:29 29457 29456
+60457  bash              F    root     tty1       0.00 secs Thu Jul 29 03:29 29456 29330
+60458  tr                     root     tty1       0.00 secs Thu Jul 29 03:29 29459 29458
+60459  bash              F    root     tty1       0.00 secs Thu Jul 29 03:29 29458 29330
+60460  tr                     root     tty1       0.00 secs Thu Jul 29 03:29 29461 29460
+60461  bash              F    root     tty1       0.00 secs Thu Jul 29 03:29 29460 29330
+60462  tr                     root     tty1       0.00 secs Thu Jul 29 03:29 29463 29462
+60463  bash              F    root     tty1       0.00 secs Thu Jul 29 03:29 29462 29330
+60464  tr                     root     tty1       0.00 secs Thu Jul 29 03:29 29465 29464
+60465  bash              F    root     tty1       0.00 secs Thu Jul 29 03:29 29464 29330
+60466  tr                     root     tty1       0.00 secs Thu Jul 29 03:29 29467 29466
+60467  bash              F    root     tty1       0.00 secs Thu Jul 29 03:29 29466 29330
+60468  tr                     root     tty1       0.00 secs Thu Jul 29 03:29 29469 29468
+60469  bash              F    root     tty1       0.00 secs Thu Jul 29 03:29 29468 29330
+60470  tr                     root     tty1       0.00 secs Thu Jul 29 03:29 29471 29470
+60471  bash              F    root     tty1       0.00 secs Thu Jul 29 03:29 29470 29330
+60472  tr                     root     tty1       0.00 secs Thu Jul 29 03:29 29473 29472
+60473  bash              F    root     tty1       0.00 secs Thu Jul 29 03:29 29472 29330
+60474  tr                     root     tty1       0.00 secs Thu Jul 29 03:29 29475 29474
+60475  bash              F    root     tty1       0.00 secs Thu Jul 29 03:29 29474 29330
+60476  tr                     root     tty1       0.00 secs Thu Jul 29 03:29 29477 29476
+60477  bash              F    root     tty1       0.00 secs Thu Jul 29 03:29 29476 29330
+60478  tr                     root     tty1       0.00 secs Thu Jul 29 03:29 29479 29478
+60479  bash              F    root     tty1       0.00 secs Thu Jul 29 03:29 29478 29330
+60480  tr                     root     tty1       0.00 secs Thu Jul 29 03:29 29481 29480
+60481  bash              F    root     tty1       0.00 secs Thu Jul 29 03:29 29480 29330
+60482  tr                     root     tty1       0.00 secs Thu Jul 29 03:29 29483 29482
+60483  bash              F    root     tty1       0.00 secs Thu Jul 29 03:29 29482 29330
+60484  tr                     root     tty1       0.00 secs Thu Jul 29 03:29 29485 29484
+60485  bash              F    root     tty1       0.00 secs Thu Jul 29 03:29 29484 29330
+60486  tr                     root     tty1       0.00 secs Thu Jul 29 03:29 29487 29486
+60487  bash              F    root     tty1       0.00 secs Thu Jul 29 03:29 29486 29330
+60488  tr                     root     tty1       0.00 secs Thu Jul 29 03:29 29489 29488
+60489  bash              F    root     tty1       0.00 secs Thu Jul 29 03:29 29488 29330
+60490  tr                     root     tty1       0.00 secs Thu Jul 29 03:29 29491 29490
+60491  bash              F    root     tty1       0.00 secs Thu Jul 29 03:29 29490 29330
+60492  tr                     root     tty1       0.00 secs Thu Jul 29 03:29 29493 29492
+60493  bash              F    root     tty1       0.00 secs Thu Jul 29 03:29 29492 29330
+60494  tr                     root     tty1       0.00 secs Thu Jul 29 03:29 29495 29494
+60495  bash              F    root     tty1       0.00 secs Thu Jul 29 03:29 29494 29330
+60496  tr                     root     tty1       0.00 secs Thu Jul 29 03:29 29497 29496
+60497  bash              F    root     tty1       0.00 secs Thu Jul 29 03:29 29496 29330
+60498  tr                     root     tty1       0.00 secs Thu Jul 29 03:29 29499 29498
+60499  bash              F    root     tty1       0.00 secs Thu Jul 29 03:29 29498 29330
+60500  tr                     root     tty1       0.00 secs Thu Jul 29 03:29 29501 29500
+60501  bash              F    root     tty1       0.00 secs Thu Jul 29 03:29 29500 29330
+60502  tr                     root     tty1       0.00 secs Thu Jul 29 03:29 29503 29502
+60503  bash              F    root     tty1       0.00 secs Thu Jul 29 03:29 29502 29330
+60524  ps                     root     tty1       0.04 secs Thu Jul 29 03:29 29524 29330
+60545  netstat          S     root     tty1       0.02 secs Thu Jul 29 03:29 29545 29330
+60606  ls                     root     tty1       0.00 secs Thu Jul 29 03:30 29607 29330
+60607  ls                     root     tty1       0.00 secs Thu Jul 29 03:30 29608 29330
+60608  ls                     root     tty1       0.31 secs Thu Jul 29 03:30 29609 29330
+60609  ls                     root     tty1       0.18 secs Thu Jul 29 03:30 29610 29330
+60610  ls                     root     tty1       0.00 secs Thu Jul 29 03:30 29611 29330
+60611  ls                     root     tty1       0.00 secs Thu Jul 29 03:30 29612 29330
+60632  hostname               root     tty1       0.00 secs Thu Jul 29 03:30 29633 29330
+60643  vi                     root     tty1       0.00 secs Thu Jul 29 03:30 29644 29330
+60664  w                      root     tty1       0.00 secs Thu Jul 29 03:30 29665 29330
+60715  cat                    root     tty1       0.01 secs Thu Jul 29 03:30 29716 29330
+60736  cat              S     root     tty1       0.01 secs Thu Jul 29 03:30 29737 29330
+60747  cat                    root     tty1       0.01 secs Thu Jul 29 03:30 29748 29330
+60768  cat              S     root     tty1       0.01 secs Thu Jul 29 03:30 29769 29330
+60890  bash             S     root     tty1       0.11 secs Thu Jul 29 03:28 29330 17839
+60891  login            S     root     __         0.20 secs Wed Jul 28 22:30 17839 1
+60892  systemd-cgroups  S     root     __         0.00 secs Thu Jul 29 03:31 29891 804
+
+Second interaction entries:
+62380  cat                    root     __         0.00 secs Thu Jul 29 21:40 31417 29566
+62384  crontab                root     __         0.00 secs Thu Jul 29 21:47 31424 31422
+62385  bash              F    root     __         0.00 secs Thu Jul 29 21:47 31422 29566
+62386  crontab                root     __         0.00 secs Thu Jul 29 21:47 31423 29566
+62387  crontab                root     __         0.00 secs Thu Jul 29 21:47 31425 29566
+62412  systemctl        S     root     __         0.00 secs Thu Jul 29 21:51 31454 29566
+62417  iptables         S     root     __         0.00 secs Thu Jul 29 21:52 31459 29566
+62459  cat                    root     __         0.00 secs Thu Jul 29 21:53 31549 29566
+62460  cat                    root     __         0.00 secs Thu Jul 29 21:54 31597 29566
+62468  last                   root     __         0.00 secs Thu Jul 29 21:55 31670 29566
+62470  ls                     root     __         0.00 secs Thu Jul 29 21:57 31763 29566
+62472  bash                   root     __         0.02 secs Thu Jul 29 03:29 29566 1
+
+Collection script entries:
+62483  scp                    root     __         0.00 secs Thu Jul 29 22:00 31904 31902
+62610  scp                    root     __         0.00 secs Thu Jul 29 22:20 524 522
+62627  scp                    root     __         0.01 secs Thu Jul 29 22:40 1522 1519
+62646  scp                    root     __         0.00 secs Thu Jul 29 23:00 2511 2508
+62687  scp                    root     __         0.01 secs Thu Jul 29 23:20 3518 3516
+62712  scp                    root     __         0.01 secs Thu Jul 29 23:40 4505 4503
+62735  scp                    root     __         0.00 secs Fri Jul 30 00:00 5490 5488
+62775  scp                    root     __         0.01 secs Fri Jul 30 00:20 6487 6484
+62795  scp                    root     __         0.00 secs Fri Jul 30 00:40 7468 7465
+62820  scp                    root     __         0.00 secs Fri Jul 30 01:00 8458 8455
+62856  scp                    root     __         0.01 secs Fri Jul 30 01:20 9464 9461
+62871  scp                    root     __         0.01 secs Fri Jul 30 01:40 10439 10437
+62930  scp                    root     __         0.00 secs Fri Jul 30 02:00 11460 11457
+63010  scp                    root     __         0.01 secs Fri Jul 30 02:20 12501 12499
+63097  scp                    root     __         0.01 secs Fri Jul 30 02:40 13550 13548
+63208  scp                    root     __         0.01 secs Fri Jul 30 03:00 14623 14621
+63292  scp                    root     __         0.01 secs Fri Jul 30 03:20 15704 15702
+63451  scp                    root     __         0.01 secs Fri Jul 30 03:40 16823 16820
+63475  scp                    root     __         0.01 secs Fri Jul 30 04:00 17808 17805
+63502  scp                    root     __         0.01 secs Fri Jul 30 04:20 18795 18793
+63529  scp                    root     __         0.01 secs Fri Jul 30 04:40 19784 19782
+63561  scp                    root     __         0.01 secs Fri Jul 30 05:00 20777 20775
+63595  scp                    root     __         0.01 secs Fri Jul 30 05:20 21773 21771
+63617  scp                    root     __         0.01 secs Fri Jul 30 05:40 22753 22751
+63637  scp                    root     __         0.00 secs Fri Jul 30 06:00 23736 23733
+63670  scp                    root     __         0.01 secs Fri Jul 30 06:20 24730 24728
+63728  scp                    root     __         0.01 secs Fri Jul 30 06:40 25750 25747
+63748  scp                    root     __         0.00 secs Fri Jul 30 07:00 26729 26726
+63784  scp                    root     __         0.01 secs Fri Jul 30 07:20 27728 27726
+63799  scp                    root     __         0.00 secs Fri Jul 30 07:40 28702 28700
+63826  scp                    root     __         0.01 secs Fri Jul 30 08:00 29690 29688
+63883  scp                    root     __         0.01 secs Fri Jul 30 08:20 30710 30708
+63906  scp                    root     __         0.00 secs Fri Jul 30 08:40 31692 31690
+63927  scp                    root     __         0.01 secs Fri Jul 30 09:00 32675 32673
+63954  scp                    root     __         0.01 secs Fri Jul 30 09:20 1219 1216
+63975  scp                    root     __         0.01 secs Fri Jul 30 09:40 2208 2206
+63991  scp                    root     __         0.00 secs Fri Jul 30 10:00 3191 3189
+64037  scp                    root     __         0.02 secs Fri Jul 30 10:20 4199 4196
+64070  scp                    root     __         0.01 secs Fri Jul 30 10:40 5193 5191
+64092  scp                    root     __         0.00 secs Fri Jul 30 11:00 6176 6173
+64123  scp                    root     __         0.01 secs Fri Jul 30 11:20 7168 7165
+64150  scp                    root     __         0.00 secs Fri Jul 30 11:40 8155 8153
+64174  scp                    root     __         0.00 secs Fri Jul 30 12:00 9154 9152
+64215  scp                    root     __         0.01 secs Fri Jul 30 12:20 10156 10154
+64237  scp                    root     __         0.01 secs Fri Jul 30 12:40 11139 11136
+64266  scp                    root     __         0.01 secs Fri Jul 30 13:00 12129 12126
+64299  scp                    root     __         0.00 secs Fri Jul 30 13:20 13122 13120
+64366  scp                    root     __         0.01 secs Fri Jul 30 13:40 14150 14148
+64390  scp                    root     __         0.00 secs Fri Jul 30 14:00 15135 15133
+64425  scp                    root     __         0.01 secs Fri Jul 30 14:20 16130 16128
+64444  scp                    root     __         0.00 secs Fri Jul 30 14:40 17109 17106
+64482  scp                    root     __         0.00 secs Fri Jul 30 15:00 18109 18107
+64527  scp                    root     __         0.01 secs Fri Jul 30 15:20 19115 19113
+64565  scp                    root     __         0.00 secs Fri Jul 30 15:40 20114 20112
+64593  scp                    root     __         0.00 secs Fri Jul 30 16:00 21103 21100
+64629  scp                    root     __         0.00 secs Fri Jul 30 16:20 22100 22098
+64661  scp                    root     __         0.01 secs Fri Jul 30 16:40 23091 23088
+64684  scp                    root     __         0.01 secs Fri Jul 30 17:00 24077 24075
+64716  scp                    root     __         0.00 secs Fri Jul 30 17:20 25070 25068
+64739  scp                    root     __         0.01 secs Fri Jul 30 17:40 26056 26054
+64777  scp                    root     __         0.00 secs Fri Jul 30 18:00 27052 27050
+64828  scp                    root     __         0.01 secs Fri Jul 30 18:20 28065 28062
+64856  scp                    root     __         0.00 secs Fri Jul 30 18:40 29054 29051
+64889  scp                    root     __         0.00 secs Fri Jul 30 19:00 30050 30047
+64922  scp                    root     __         0.01 secs Fri Jul 30 19:20 31043 31040
+64981  scp                    root     __         0.00 secs Fri Jul 30 19:40 32063 32061
+65034  scp                    root     __         0.00 secs Fri Jul 30 20:00 628 626
+68231  scp                    root     __         0.00 secs Fri Jul 30 20:20 4808 4806
+68282  scp                    root     __         0.01 secs Fri Jul 30 20:40 5826 5824
+
+Third interaction entries:
+68255  unix_chkpwd      S     root     __         0.00 secs Fri Jul 30 20:37 5678 5674
+68256  sshd             SF    sshd     __         0.00 secs Fri Jul 30 20:37 5675 5674
+68257  unix_chkpwd      S     root     __         0.00 secs Fri Jul 30 20:37 5679 5676
+68258  sshd             SF    sshd     __         0.00 secs Fri Jul 30 20:37 5677 5676
+68259  id                     root     pts/0      0.00 secs Fri Jul 30 20:37 5683 5682
+68260  bash              F    root     pts/0      0.00 secs Fri Jul 30 20:37 5682 5681
+68261  hostname               root     pts/0      0.00 secs Fri Jul 30 20:37 5685 5684
+68262  bash              F    root     pts/0      0.00 secs Fri Jul 30 20:37 5684 5681
+68263  grep                   root     pts/0      0.00 secs Fri Jul 30 20:37 5687 5686
+68264  grepconf.sh            root     pts/0      0.00 secs Fri Jul 30 20:37 5686 5681
+68265  tty                    root     pts/0      0.00 secs Fri Jul 30 20:37 5689 5688
+68266  tput                   root     pts/0      0.00 secs Fri Jul 30 20:37 5690 5688
+68267  bash              F    root     pts/0      0.00 secs Fri Jul 30 20:37 5688 5681
+68268  dircolors              root     pts/0      0.00 secs Fri Jul 30 20:37 5692 5691
+68269  bash              F    root     pts/0      0.00 secs Fri Jul 30 20:37 5691 5681
+68270  grep                   root     pts/0      0.00 secs Fri Jul 30 20:37 5693 5681
+68271  consoletype            root     pts/0      0.00 secs Fri Jul 30 20:37 5696 5694
+68272  bash              F    root     pts/0      0.00 secs Fri Jul 30 20:37 5694 5681
+68273  grep                   root     __         0.00 secs Fri Jul 30 20:37 5698 5697
+68274  grepconf.sh            root     __         0.00 secs Fri Jul 30 20:37 5697 5695
+68275  consoletype            root     __         0.00 secs Fri Jul 30 20:37 5700 5699
+68276  bash              F    root     __         0.00 secs Fri Jul 30 20:37 5699 5695
+68277  ls                     root     pts/0      0.00 secs Fri Jul 30 20:37 5705 5681
+68294  cat                    root     pts/0      0.00 secs Fri Jul 30 20:43 6017 5681
+68299  ls                     root     pts/0      0.00 secs Fri Jul 30 20:45 6080 5681
+68300  cat                    root     pts/0      0.00 secs Fri Jul 30 20:45 6083 5681
+68301  ls                     root     pts/0      0.00 secs Fri Jul 30 20:45 6097 5681
+68307  bash             S     root     pts/0      0.03 secs Fri Jul 30 20:37 5681 5674
+68308  sshd             S     root     __         0.24 secs Fri Jul 30 20:37 5674 1250
+68309  systemd-cgroups  S     root     __         0.00 secs Fri Jul 30 20:48 6237 804
+68310  sftp-server      S     root     __         0.00 secs Fri Jul 30 20:37 5695 5676
+68311  sshd             S     root     __         0.12 secs Fri Jul 30 20:37 5676 1250
+68312  systemd-cgroups  S     root     __         0.00 secs Fri Jul 30 20:48 6238 804
+68313  systemd-cgroups  S     root     __         0.00 secs Fri Jul 30 20:48 6239 804

@@ -1,0 +1,24 @@
+name: "Chaplin's PR Nightmare - 8"
+author: "[Thomas](https://twitter.com/0xQuig)"
+category: osint
+description: |-
+  Straightup doxx Charlie by finding the email he set all these accounts up with, and investigate it.
+
+  The inner content of this flag begins with **"b0"**
+
+
+  **author**: [Thomas](https://twitter.com/0xQuig)
+value: 500
+type: dynamic
+tags:
+  - osint
+extra:
+  initial: 500
+  decay: 75
+  minimum: 50
+flags:
+  - uiuctf{b0rk_b0rk_1_lOv3_mY_d0g<3}
+hints:
+  - This challenge was inspired by something previous.
+state: visible
+version: "0.1"

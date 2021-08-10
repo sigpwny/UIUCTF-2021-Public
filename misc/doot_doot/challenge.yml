@@ -1,0 +1,21 @@
+# This file represents the base specification of your challenge. It is used by
+# other tools to install and deploy your challenge.
+# Required sections
+name: "doot doot"
+author: "GrayWalf and ian5v"
+category: misc
+description: "From the creator of \"Shrek but only when ANYONE says 'E'\", we bring you the most-viewed-YouTube video of all time: https://en.wikipedia.org/wiki/List_of_most-viewed_YouTube_videos#Top_videos   https://www.youtube.com/watch?v=zNXl9fqGX40\n\n**author**: GrayWalf and ian5v"
+value: 500
+type: dynamic
+tags:
+  - misc
+  - beginner
+extra:
+  initial: 500
+  decay: 75
+  minimum: 50
+flags:
+  - uiuctf{doot_d0ot_do0t_arent_you_tired_of_the_int4rnet?}
+# This is visible by default. It takes two values: hidden, visible.
+state: visible
+version: "0.1"

@@ -1,0 +1,26 @@
+# This file represents the base specification of your challenge. It is used by
+# other tools to install and deploy your challenge.
+
+# Required sections
+name: "baby_python_fixed"
+author: "tow_nater"
+category: jail
+description: "whoops, I made a typo on the other chal. it's probably impossible, right? \n\n`nc baby-python-fixed.chal.uiuc.tf 1337`\n\n\n**author**: tow_nater"
+value: 500
+type: dynamic
+tags:
+  - jail
+  - python
+  - beginner
+extra:
+  initial: 500
+  decay: 75
+  minimum: 50
+flags:
+  - uiuctf{unicode_normalization_is_not_normal_d2f674}
+files:
+  - challenge/challenge.py
+# This is visible by default. It takes two values: hidden, visible.
+state: visible
+# leave this 0.1
+version: "0.1"

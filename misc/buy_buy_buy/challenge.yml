@@ -1,0 +1,18 @@
+version: "0.1"
+name: "buy_buy_buy"
+author: etalerni
+category: misc
+value: 500
+type: dynamic
+state: hidden
+extra:
+  initial: 500
+  decay: 75
+  minimum: 50
+description: |
+  I got a lot of items to sell so buy buy buy.
+tags:
+  - misc
+  - discord bot
+flags:
+  - "uiuctf{at_the_bang_of_the_gavel_only_one_can_win}"

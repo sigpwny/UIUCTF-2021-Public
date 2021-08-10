@@ -1,0 +1,21 @@
+version: "0.1"
+name: vaudeville
+author: ehennenfent
+category: reverse
+type: dynamic
+value: 500
+extra:
+  initial: 500
+  decay: 75
+  minimum: 50
+description: |-
+  The Dramatis Personae invite you to join in this latest production. `nc vaudeville.chal.uiuc.tf 1337`
+
+
+  **author**: ehennenfent
+tags:
+  - reverse
+files:
+  - challenge/vaudeville
+flags:
+  - "uiuctf{b0rne_4ward_c3as313ss1y_1nt0_teh_f-u-t-u-r-e_*dab*}"

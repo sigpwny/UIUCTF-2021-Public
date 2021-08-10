@@ -1,0 +1,29 @@
+# This file represents the base specification of your challenge. It is used by
+# other tools to install and deploy your challenge.
+
+# Required sections
+name: "should've had a v8"
+author: "samsonites"
+category: pwn
+description: |-
+  have fun with some v8 pwn. instructions in handout.
+
+  `cat exploit.js | nc shouldve-had-a-v8.chal.uiuc.tf 1337`
+
+  **author**: samsonites
+value: 500
+type: dynamic
+tags:
+  - pwn
+extra:
+  initial: 500
+  decay: 75
+  minimum: 50
+flags:
+  - "uiuctf{v8_go_brrrr_e72df103}"
+files:
+  - handout.tar.gz
+# This is visible by default. It takes two values: hidden, visible.
+state: visible
+# leave this 0.1
+version: "0.1"

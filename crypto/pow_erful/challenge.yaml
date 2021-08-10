@@ -1,0 +1,27 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  name: pow-erful
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+  healthcheck:
+    # TIP: disable the healthcheck during development
+    enabled: true
+    image: us.gcr.io/dotted-forest-314903/pow-erful-healthcheck:52feeb67bbeea6cd51044aaa47efbee91ed8f7c17531549f2da69e1b5fd42090
+  image: us.gcr.io/dotted-forest-314903/pow-erful-challenge:7ab6ff5de91111744ad69765190ba105c784174f2853f9c8cd1477dcf247b23e
+  horizontalPodAutoscalerSpec:
+    maxReplicas: 8
+    minReplicas: 2
+    targetCPUUtilizationPercentage: 60
+  podTemplate:
+    template:
+      spec:
+        containers:
+          - name: 'challenge'
+            resources:
+              requests:
+                memory: "1000Mi"
+                cpu: "500m"

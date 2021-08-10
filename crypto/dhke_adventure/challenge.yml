@@ -1,0 +1,27 @@
+# This file represents the base specification of your challenge. It is used by
+# other tools to install and deploy your challenge.
+
+# Required sections
+name: "dhke_adventure"
+author: "whimsicott79@leftovers, arxenix"
+category: crypto
+description: |-
+  Za smoother warudo. `nc dhke-adventure.chal.uiuc.tf 1337`
+
+  **author**: whimsicott79@leftovers, arxenix
+value: 500
+type: dynamic
+tags:
+  - crypto
+extra:
+  initial: 500
+  decay: 75
+  minimum: 50
+flags:
+  - uiuctf{give_me_chocolate_every_day_7b8b06}
+files:
+  - challenge/dhke_adventure.py
+# This is visible by default. It takes two values: hidden, visible.
+state: visible
+# leave this 0.1
+version: "0.1"

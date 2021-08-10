@@ -1,0 +1,23 @@
+name: "Chaplin's PR Nightmare - 2"
+author: "[Thomas](https://twitter.com/0xQuig)"
+category: osint
+description: |-
+  Charlie made an advertisement to promote his company, he is using the modern media platform YouTube to present it! Can you find it?
+
+  The inner content of this flag begins with **"ch"**
+
+
+  **author**: [Thomas](https://twitter.com/0xQuig)
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 75
+  minimum: 50
+flags:
+  - uiuctf{ch@plin_oN_th3_tV!!}
+tags:
+  - osint
+  - beginner
+state: visible
+version: "0.1"

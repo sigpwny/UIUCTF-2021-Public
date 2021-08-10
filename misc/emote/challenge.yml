@@ -1,0 +1,21 @@
+version: "0.1"
+name: "emote"
+author: ian5v
+category: misc
+value: 500
+type: dynamic
+state: hidden
+extra:
+  initial: 500
+  decay: 75
+  minimum: 50
+description: |-
+  recently i've been converting strings into images for funsies and staring at them. anytime time to go share those images with my friends in discord! warning: staring at noise in visual form may or may not introduce you to the abyss
+
+
+  **author**: ian5v
+tags:
+  - misc
+  - beginner
+flags:
+  - "uiuctf{staring_at_pixels_is_fun}"

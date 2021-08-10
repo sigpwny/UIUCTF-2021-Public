@@ -1,0 +1,33 @@
+
+# This file represents the base specification of your challenge. It is used by
+# other tools to install and deploy your challenge.
+
+# Required sections
+name: "baby_python"
+author: "tow_nater"
+category: jail
+description: |-
+  here's a warmup jail for you :)
+  
+  `nc baby-python.chal.uiuc.tf 1337`
+
+
+  **author**: tow_nater
+value: 500
+type: dynamic
+tags:
+  - jail
+  - python
+  - beginner
+extra:
+  initial: 500
+  decay: 75
+  minimum: 50
+flags:
+  - uiuctf{just_kidding_about_the_chal_being_broken_lol_11a7b8}
+files:
+  - challenge/challenge.py
+# This is visible by default. It takes two values: hidden, visible.
+state: visible
+# leave this 0.1
+version: "0.1"

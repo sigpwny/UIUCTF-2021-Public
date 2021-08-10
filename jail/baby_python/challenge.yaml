@@ -1,0 +1,14 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  name: baby-python
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+  healthcheck:
+    # TIP: disable the healthcheck during development
+    enabled: true
+    image: us.gcr.io/dotted-forest-314903/baby-python-healthcheck:cacd258b9b91cbae2c4c10aa66b8ff35b86363be0f877a1501e1404a4cbaa0c6
+  image: us.gcr.io/dotted-forest-314903/baby-python-challenge:b56a4c72598b2afd904d7d8e977000bef5098947c9034f138ccd958eb6fa0b1a

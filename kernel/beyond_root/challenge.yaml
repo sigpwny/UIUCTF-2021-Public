@@ -1,0 +1,17 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  name: beyond-root
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+    ports:
+      - protocol: "TCP"
+        port: 1337
+        targetPort: 1337
+  healthcheck:
+    enabled: true
+    image: us.gcr.io/dotted-forest-314903/beyond-root-healthcheck:576d6896389af562a4358823c16293f2716f6b3b6bc382b06f315280b393b388
+  image: us.gcr.io/dotted-forest-314903/beyond-root-challenge:0b1dc8ba0f87cc9e271a9045d613aed67266062b694818d8e1dbc3c4bb886a05

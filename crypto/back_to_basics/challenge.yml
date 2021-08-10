@@ -1,0 +1,28 @@
+# This file represents the base specification of your challenge. It is used by
+# other tools to install and deploy your challenge.
+
+# Required sections
+name: "back_to_basics"
+author: "epistemologist"
+category: crypto
+tags:
+  - crypto
+  - beginner
+description: |-
+  Shoutout to those people who think that base64 is proper encryption
+
+  **author**: epistemologist
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 75
+  minimum: 50
+flags:
+  - uiuctf{r4DixAL}
+files:
+  - public/main.py
+  - public/flag_enc
+# This is visible by default. It takes two values: hidden, visible.
+state: visible
+version: "0.1"

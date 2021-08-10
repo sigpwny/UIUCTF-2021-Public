@@ -1,0 +1,22 @@
+version: "0.1"
+name: "smorga's bored"
+author: Vanilla
+category: reverse
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 75
+  minimum: 50
+description: |-
+  smorga was bored and wrote a lil cuda chal 4 u
+
+
+  **author**: Vanilla
+tags:
+  - reverse
+files:
+  - smorga.exe
+  - cudart64_102.dll
+flags:
+  - "uiuctf{goph1shing4barraCUDA}"

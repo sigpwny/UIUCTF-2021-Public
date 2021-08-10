@@ -1,0 +1,18 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  name: phpfuck
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+    ports:
+      - protocol: "TCP"
+        port: 80
+        targetPort: 1337
+  healthcheck:
+    # TIP: disable the healthcheck during development
+    enabled: true
+    image: us.gcr.io/dotted-forest-314903/phpfuck-healthcheck:6be3c24d303bbd9d13af660e3a69baf6458e98006aeb71a090af4d172b808c93
+  image: us.gcr.io/dotted-forest-314903/phpfuck-challenge:be8f2a83f888d961f49d0744cecf69bd653f1166952a41ec1f5f74fa1f4bd556

@@ -1,0 +1,14 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  name: testchal
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+  healthcheck:
+    # TIP: disable the healthcheck during development
+    enabled: true
+    image: us.gcr.io/dotted-forest-314903/testchal-healthcheck:b2cbc320eb956a6684bbfbfe443561cbfd6f954dbb80ccf06f10aa946470f647
+  image: us.gcr.io/dotted-forest-314903/testchal-challenge:6cfa66d0208e5dd31181c07c765f3a6bd40f9ef221bc5773aec4db2f8f6de009

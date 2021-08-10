@@ -1,0 +1,18 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  name: red
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+    ports:
+      - protocol: "TCP"
+        port: 42069
+        targetPort: 42069
+  healthcheck:
+    # TIP: disable the healthcheck during development
+    enabled: true
+    image: us.gcr.io/dotted-forest-314903/red-healthcheck:e079145a396436931bd32024ebb27539359484255c25b4fd32830f8ef2c35dbc
+  image: us.gcr.io/dotted-forest-314903/red-challenge:f0af72fba8f5474ad6f6e3232dcf679d4fffa8b9b40f209cff4dd88b77fbefe4

@@ -1,0 +1,27 @@
+name: "Chaplin's PR Nightmare - 1"
+author: "[Thomas](https://twitter.com/0xQuig)"
+category: osint
+description: |-
+  Charlie Chaplin has gotten into software development, coding, and the like... He made a company, but it recently came under fire for a PR disaster.
+  He got **all over the internet** before he realized the company's mistake, and is now scrambling to clean up his mess, but it may be too late!!
+  Find his Twitter Account and investigate! *NOTE THAT THESE CHALLENGES DO NOT HAVE DO BE DONE IN ORDER!*
+
+  The inner content of this flag begins with **"pe"**
+
+
+  **author**: [Thomas](https://twitter.com/0xQuig)
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 75
+  minimum: 50
+flags:
+  - uiuctf{pe@k_c0medy!}
+tags:
+  - osint
+  - beginner
+hints:
+  - If you are struggling to find his Twitter account, check out the \#chal-updates channel in our [Discord](https://discord.gg/uiuctf)
+state: visible
+version: "0.1"

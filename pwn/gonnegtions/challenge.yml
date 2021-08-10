@@ -1,0 +1,26 @@
+# This file represents the base specification of your challenge. It is used by
+# other tools to install and deploy your challenge.
+
+# Required sections
+name: "Gonnegtions"
+author: "kmh"
+category: pwn
+description: |-
+  I understand you're looking for a business gonnegtion. Maybe you can find one somewhere on `gonnegtions.chal.uiuc.tf`.
+
+  **author**: kmh
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 75
+  minimum: 50
+flags:
+  - uiuctf{sh4dy_bus1n3ss_9cf82}
+files:
+  - challenge/gonnegtions
+  - challenge/Dockerfile
+# This is visible by default. It takes two values: hidden, visible.
+state: hidden
+# leave this 0.1
+version: "0.1"

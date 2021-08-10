@@ -1,0 +1,14 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  name: pwn-warmup
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+  healthcheck:
+    # TIP: disable the healthcheck during development
+    enabled: true
+    image: us.gcr.io/dotted-forest-314903/pwn-warmup-healthcheck:a5d6de4931e55eabacebfb483bd4151e798a8689c7815f0d86c2772b7a67cbda
+  image: us.gcr.io/dotted-forest-314903/pwn-warmup-challenge:d15c607fefa4084c1122bcee59b2874765f81389ab01d12e08315379d32dffe8

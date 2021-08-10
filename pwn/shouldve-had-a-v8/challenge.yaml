@@ -1,0 +1,14 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  name: shouldve-had-a-v8
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+  healthcheck:
+    # TIP: disable the healthcheck during development
+    enabled: true
+    image: us.gcr.io/dotted-forest-314903/shouldve-had-a-v8-healthcheck:3a8d5094873d82da1d39d4b049ee83f63c3736b79ef19c984dbc705716a42563
+  image: us.gcr.io/dotted-forest-314903/shouldve-had-a-v8-challenge:84819ec4285a762992d13b80d0fae0ab3603fad8f6a293b6bc45eec2a9672e56

@@ -1,0 +1,26 @@
+# This file represents the base specification of your challenge. It is used by
+# other tools to install and deploy your challenge.
+
+# Required sections
+name: "pwnies_please"
+category: misc
+description: |-
+  Disguise these pwnies to get the flag!
+
+  **author**: Anusha Ghosh, Akshunna Vaishnav, ian5v, Vanilla
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 75
+  minimum: 50
+flags:
+  - uiuctf{th4nks_f0r_th3_pwni3s}
+tags:
+  - misc
+  - ai
+files:
+  - "public/model.pth"
+  - "public/web.py" 
+state: hidden
+version: "0.1"

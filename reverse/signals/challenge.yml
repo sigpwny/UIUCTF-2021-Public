@@ -1,0 +1,21 @@
+version: "0.1"
+name: signals
+author: tow_nater
+category: reverse
+type: dynamic
+value: 500
+extra:
+  initial: 500
+  decay: 75
+  minimum: 50
+description: |-
+  This program is sending me mixed signals...
+
+
+  **author**: tow_nater
+tags:
+  - reverse
+files:
+  - signals
+flags:
+  - "uiuctf{another_ctf_another_flag_checker}"

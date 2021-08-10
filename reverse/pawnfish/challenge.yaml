@@ -1,0 +1,14 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  name: pawnfish
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+  healthcheck:
+    # TIP: disable the healthcheck during development
+    enabled: false
+    image: us.gcr.io/dotted-forest-314903/pawnfish-healthcheck:64b8fe36061a0f3216ec1aa3083a8fbf96f93b46bcb25d43595f0b7045208dfa
+  image: us.gcr.io/dotted-forest-314903/pawnfish-challenge:6a7afc66e7c2e4d2e3aa4612b58fdde144dd675cb2a0e2e7810597310a5673fb

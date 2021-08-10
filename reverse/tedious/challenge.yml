@@ -1,0 +1,20 @@
+version: "0.1"
+name: Tedious
+author: Chief
+category: reverse
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 75
+  minimum: 50
+description: |-
+  Enter the flag and the program will tell you if it is correct!
+
+  **author**: Chief
+tags:
+  - reverse
+files:
+  - challenge
+flags:
+  - "uiuctf{y0u_f0unD_t43_fl4g_w0w_gud_j0b}"

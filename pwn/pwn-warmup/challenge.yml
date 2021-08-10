@@ -1,0 +1,24 @@
+name: "Pwn Warmup"
+author: "[Thomas](https://twitter.com/0xQuig)"
+category: pwn
+description: |
+  Hmm this time we arent just going to give you the flag like last year... What can you do?!
+  
+  `nc pwnwarmup.chal.uiuc.tf 1337`
+  
+  **author**: [Thomas](https://twitter.com/0xQuig)
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 75
+    minimum: 50
+flags:
+    - uiuctf{k3b0ard_sp@m_do3snT_w0rk_anYm0r3}
+files:
+    - challenge/challenge
+tags:
+    - pwn
+    - beginner
+state: visible
+version: "0.1"

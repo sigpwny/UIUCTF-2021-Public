@@ -1,0 +1,29 @@
+# This file represents the base specification of your challenge. It is used by
+# other tools to install and deploy your challenge.
+
+# Required sections
+name: "dhke_intro"
+author: "whimsicott79@leftovers"
+category: crypto
+tags:
+  - crypto
+  - beginner
+description: |-
+  Small numbers are bad in cryptography. This is why.
+
+  **author**: whimsicott79@leftovers
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 75
+  minimum: 50
+flags:
+  - uiuctf{omae_ha_mou_shindeiru_b9e5f9}
+files:
+  - dhkectf_intro.py
+  - output.txt
+# This is visible by default. It takes two values: hidden, visible.
+state: visible
+# leave this 0.1
+version: "0.1"

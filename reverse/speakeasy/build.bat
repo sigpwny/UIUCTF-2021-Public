@@ -1,0 +1,1 @@
+cl chal.c /link /MAP

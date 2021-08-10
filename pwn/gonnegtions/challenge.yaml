@@ -1,0 +1,20 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  name: gonnegtions
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+    ports:
+      - protocol: "TCP"
+        port: 1337
+        targetPort: 1337
+      - protocol: "TCP"
+        port: 22
+        targetPort: 22
+  healthcheck:
+    # TIP: disable the healthcheck during development
+    enabled: false
+  image: us.gcr.io/dotted-forest-314903/gonnegtions-challenge:bf5f4df96c7c232a2c7ca4e7354d4009e3f938da12bbaade59a8415ce6672546

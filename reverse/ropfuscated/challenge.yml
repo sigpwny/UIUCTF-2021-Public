@@ -1,0 +1,21 @@
+version: "0.1"
+name: ropfuscated
+author: tow_nater, vszabo2, Pete
+category: reverse
+type: dynamic
+value: 500
+extra:
+  initial: 500
+  decay: 75
+  minimum: 50
+description: |-
+  Why only use rop for pwn?
+
+
+  **authors**: tow_nater, vszabo2, icypete
+tags:
+  - reverse
+files:
+  - ropfuscated.zip
+flags:
+  - "uiuctf{which_shows_that_rop_is_turing_complete_QED}"

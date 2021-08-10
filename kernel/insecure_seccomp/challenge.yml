@@ -1,0 +1,28 @@
+name: "insecure_seccomp"
+author: "YiFei Zhu"
+category: kernel
+description: |-
+  What if seccomp ("secure computing") doesn't require NO_NEW_PRIVS?
+
+  `$ stty raw -echo; nc insecure-seccomp.chal.uiuc.tf 1337; stty -raw echo`
+
+
+  **author**: YiFei Zhu
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 75
+  minimum: 50
+flags:
+  - uiuctf{seccomp_plus_new_privs_equals_inseccomp_e84609bf}
+tags:
+  - kernel
+  - bpf
+  - seccomp
+  - beginner
+files:
+  - handout.tar.gz
+  - starter.c
+state: visible
+version: "0.1"

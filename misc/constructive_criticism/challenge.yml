@@ -1,0 +1,23 @@
+# This file represents the base specification of your challenge. It is used by
+# other tools to install and deploy your challenge.
+
+# Required sections
+name: "Constructive Criticism"
+author: "Pranav Goel"
+category: misc
+description: "Checkout this playlist from a new soundcloud artist I found: \nhttps://soundcloud.com/nick-carraway-43926894/sets/lofi-beats-to-hack-with/s-83uzJdlwz3H\n\nHe made a mix of some good songs to vibe with while you hack away.\nDownload the songs if you want to listen offline!\n\n\n**author**: Pranav Goel"
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 75
+  minimum: 50
+flags:
+  - uiuctf{lofi_bops_but_encrypting_audio_using_interference_slaps}
+tags:
+  - misc
+  - signal processing
+hints:
+  - Stereo is pretty cool if you look into it...
+state: visible
+version: "0.1"

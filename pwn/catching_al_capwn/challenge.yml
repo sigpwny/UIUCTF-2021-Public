@@ -1,0 +1,25 @@
+name: "Catching Al Capwn"
+author: "[Thomas](https://twitter.com/0xQuig)"
+category: pwn
+description: |-
+  Al Capwn is back at it again running around the city! We cant figure out where he is going next, but we know that you might have an idea!
+  Instruct us which streets to go down to find Capwn. Your *payment* for catching Capwn is in `/flag.txt`
+
+  `nc alcapwn.chal.uiuc.tf 1337`
+  **author**: [Thomas](https://twitter.com/0xQuig)
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 75
+  minimum: 50
+flags:
+  - uiuctf{t@x_eVa5iOn_!s_b@d_Th@ts_h0w_cApwn_g0T_c@uGHt}
+tags:
+    - pwn
+files:
+	- challenge
+hints:
+    - 
+state: hidden
+version: "0.1"

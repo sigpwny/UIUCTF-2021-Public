@@ -1,0 +1,1 @@
+mv /srv/exfiltrated "/srv/..."

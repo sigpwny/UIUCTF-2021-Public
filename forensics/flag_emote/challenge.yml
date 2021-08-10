@@ -1,0 +1,19 @@
+name: "capture the :flag:"
+author: spamakin
+category: forensics
+description: "It's always in the place you least expect\n\n**author**: spamakin"
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 75
+  minimum: 50
+flags:
+  - uiuctf{d!sc0rd_fl4g_h0w_b0ut_d4t}
+hints:
+  - "Images store more than an image"
+tags:
+  - forensics
+  - beginner
+state: hidden
+version: "0.1"

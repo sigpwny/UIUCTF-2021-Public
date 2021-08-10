@@ -1,0 +1,17 @@
+name: "Tablet 1"
+author: "WhiteHoodHacker"
+category: forensics
+description: "Red has been acting very sus lately... so I took a backup of their tablet to see if they are hiding something!\n\nIt looks like Red has been exfiltrating sensitive data bound for Mira HQ to their own private server. We need to access that server and contain the leak.\n\nNOTE: Both Tablet challenges use the same `tablet.tar.gz` file.  \n- [Google Drive mirror](https://drive.google.com/file/d/1KcRzBZRA1VbuyzR6fVaibLgJQ11dD737/view?usp=sharing)  \n- [Dropbox mirror](https://www.dropbox.com/s/1m7n1pyvq6xgwfb/tablet.tar.gz?dl=0)  \n- [MEGA mirror](https://mega.nz/file/9sFwjRiL#VdiMK50ION61Ll3O583TrQ3nqpxfMsM-hLXtUrUtfYU)\n\nMD5: f629eec128551cfd69a906e7a29dc162\n\n**author**: WhiteHoodHacker"
+value: 500
+type: dynamic
+tags:
+  - forensics
+  - iPadOS
+extra:
+  initial: 500
+  decay: 75
+  minimum: 50
+flags:
+  - uiuctf{upload_task_only_takes_9_seconds_0bf79b}
+state: visible
+version: "0.1"

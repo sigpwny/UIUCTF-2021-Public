@@ -1,0 +1,20 @@
+name: "speakeasy"
+author: "2much4u"
+category: reverse
+description: |-
+  The local speakeasy has a password to get in. Can you guess it?
+
+  **author**: 2much4u
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 75
+  minimum: 50
+flags:
+  - uiuctf{D0nt_b3_@_W3T_bl4nK3t_6n7a}
+tags:
+  - reverse
+files:
+  - speakeasy.exe
+version: "0.1"

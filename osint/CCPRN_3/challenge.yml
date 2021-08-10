@@ -1,0 +1,24 @@
+name: "Chaplin's PR Nightmare - 3"
+author: "[Thomas](https://twitter.com/0xQuig)"
+category: osint
+description: |-
+  Charlie even has a website!!! Find it and look around!
+
+  The inner content of this flag begins with **"ch"**
+
+
+  **author**: [Thomas](https://twitter.com/0xQuig)
+value: 500
+type: dynamic
+tags:
+  - osint
+extra:
+  initial: 500
+  decay: 75
+  minimum: 50
+flags:
+  - uicutf{ch@pl1n_i5_eL337}
+hints:
+  - Google sites is a really easy way to make a personal website.
+state: visible
+version: "0.1"

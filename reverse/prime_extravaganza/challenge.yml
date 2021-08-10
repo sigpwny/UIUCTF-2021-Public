@@ -1,0 +1,20 @@
+version: "0.1"
+name: Prime Extravaganza
+author: Chief
+category: reverse
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 75
+  minimum: 50
+description: |-
+  Find the secret primes, add them together, and md5 them for the flag! Format is uiuctf{md5(sum_of_secret_inputs)}
+
+  **author**: Chief
+tags:
+  - reverse
+files:
+  - challenge
+flags:
+  - "uiuctf{627360eb8aa0da45ff04a514dab40e54}"

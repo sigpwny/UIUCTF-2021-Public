@@ -1,0 +1,21 @@
+version: "0.1"
+name: plugin
+author: Vanilla
+category: reverse
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 75
+  minimum: 50
+description: |-
+  I downloaded this cool plugin from the Web but it needs an activation code, can you help me?
+
+
+  **author**: Vanilla
+tags:
+  - reverse
+files:
+  - FlagChecker.zsc
+flags:
+  - "uiuctf{who_needs_dam_standards}"

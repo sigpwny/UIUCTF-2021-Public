@@ -1,0 +1,24 @@
+name: "SUPER"
+author: "WhiteHoodHacker"
+category: forensics
+description: |-
+  HOT
+
+  **author**: WhiteHoodHacker
+value: 500
+type: dynamic
+tags:
+  - forensics
+  - unknown
+extra:
+  initial: 500
+  decay: 75
+  minimum: 50
+flags:
+  - uiuctf{R3sT0re_f0R_M0re}
+files:
+  - SUPERHOT
+hints:
+  - Forensics integrity is important... unless you like corrupted binaries
+state: visible
+version: "0.1"

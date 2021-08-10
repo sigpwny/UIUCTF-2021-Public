@@ -1,0 +1,23 @@
+# This file represents the base specification of your challenge. It is used by
+# other tools to install and deploy your challenge.
+# Required sections
+name: testchal3
+author: arxenix
+category: misc
+description: |-
+  This is a sample challenge. `nc testchal.chal.uiuc.tf`
+
+  **author**: arxenix
+value: 500
+type: dynamic
+tags:
+  - beginner
+extra:
+  initial: 500
+  decay: 75
+  minimum: 50
+flags:
+  - UIUC{test_flag_123}
+# This is visible by default. It takes two values: hidden, visible.
+state: hidden
+version: "0.1"
